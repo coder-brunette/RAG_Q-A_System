@@ -16,6 +16,7 @@ Arxiv research papers (scientific articles and research documents)
 Wikipedia (encyclopedic articles and summaries)
 
 PDF documents (such as research papers, reports, or documentation)
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Processing Pipeline:**

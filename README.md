@@ -5,7 +5,7 @@ Built a Q&A system using LangChain with Retrieval-Augmented Generation (RAG) to 
 ![200w](https://github.com/user-attachments/assets/74df86f5-f2e9-46c7-b45e-8265ef953506)
 
 
-Input:
+**Input**:
 
 User Queries: The system accepts natural language input from users in the form of questions or queries.
 
@@ -16,11 +16,11 @@ Arxiv research papers (scientific articles and research documents)
 Wikipedia (encyclopedic articles and summaries)
 
 PDF documents (such as research papers, reports, or documentation)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+**Processing Pipeline:**
 
-Processing Pipeline:
-
-Data Retrieval:
+**Data Retrieval:**
 
 LangChain Framework: Utilized LangChain to build the pipeline, enabling integration between multiple data sources and large language models (LLMs).
 Vector Store Indexing: Documents from Arxiv, Wikipedia, and PDFs are embedded into a vector space using embedding models (e.g., OpenAI or Hugging Face embeddings). This step allows for efficient similarity-based search.
@@ -34,8 +34,9 @@ The retrieved documents are passed to a large language model (e.g., OpenAI GPT o
 The LLM uses the context provided by the retrieved data to generate an accurate, context-aware answer that directly addresses the user's query.
 LangChain’s prompt engineering ensures that the LLM processes the context effectively to avoid hallucinations and provide factually correct responses.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Output:
+**Output:**
 
 Concise, Accurate Answers: The system delivers a well-formed response based on the combined knowledge from all the document sources.
 
@@ -43,8 +44,9 @@ Contextual Insights: The generated response is augmented with data from the retr
 
 Traceable Source Material: Optionally, the system can provide references or snippets of the original documents from which the information was drawn, ensuring transparency and allowing users to verify the data.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Key Technologies:
+**Key Technologies:**
 
 LangChain: For orchestrating the retrieval and generation process, as well as integrating multiple tools for data retrieval, indexing, and prompt handling.
 
